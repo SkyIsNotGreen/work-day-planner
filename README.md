@@ -1,4 +1,4 @@
-# work_day_planner
+# Work-day-planner
 Deployed page: https://skyisnotgreen.github.io/work-day-planner/
 
 # In the first image, you can see the entire website
