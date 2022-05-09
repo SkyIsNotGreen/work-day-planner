@@ -52,20 +52,35 @@ description.each(function() {
     }
 });
 
+
+
 function saveTasks () {
-    // save the row the text belongs too, and the text itself
     const rowHour = $(this).siblings(".hour").text();
     const task = $(this).siblings(".description").val();
 
+    // save the row the text belongs too, and the text itself
     if (task === "") {
         localStorage.setItem(rowHour, "");
     }
-
     else {
         localStorage.setItem(rowHour, task);
     }
 }
 
+function deleteTasks () {
+    const rowHour = $(this).siblings(".hour").text();
+    const task = $(this).siblings(".description").val();
+
+    // delete the row the text belongs too, and the text itself from local storage
+    if (task === "") {
+        localStorage.removeItem(rowHour, "");
+    }
+    else {
+        localStorage.removeItem(rowHour, task);
+    }
+}
+
 saveButton.on("click", saveTasks);
+deleteButton.on("click", deleteTasks);
 
 });
