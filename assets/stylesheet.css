@@ -46,22 +46,31 @@ body {
     color: #000000;
     border-top: 1px solid #000000;
   }
+
+  .lead {
+      font-size: 1.5rem;
+  }
+
+  .date {
+      font-size: 2rem;
+      padding-top: 40px;
+  }
   
 /* will change color based on these classes w/ JS */
 
   .past {
-    background-color: #d3d3d3;
+    background-color: #646464;
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
   }
   
   .future {
-    background-color: #77dd77;
-    color: white;
+    background-color: #acffac;
+    color: #000000;
   }
   
   /* button styling */
