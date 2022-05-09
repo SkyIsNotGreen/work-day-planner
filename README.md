@@ -2,7 +2,7 @@
 Deployed page: https://skyisnotgreen.github.io/work-day-planner/
 
 # In the first image, you can see the entire website
-Current date and time are retrieved via moment.\n
+Current date and time are retrieved via moment.
 The grey zones indicates that hour has passed, the white zone indicates that hour is the present and the green zones indicate those hours are the future.
 ![image](https://user-images.githubusercontent.com/60657981/167461179-2aced1de-cdc9-41e3-828c-cbe59de224ef.png)
 
